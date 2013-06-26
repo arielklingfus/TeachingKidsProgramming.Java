@@ -13,7 +13,6 @@ public class AdLibs
     words.currentEdVerb = MessageBox.askForTextInput("Enter a verb ending in -ed");
     words.currentBodyPart = MessageBox.askForTextInput("Enter a Body Part");
     String currentStory = Parser.parseRtfFile("View.rtf", words);
-    // MessageBox.showMessage(currentStory);
     Viewer.displayRtfFile(currentStory);
   }
 }
