@@ -1,6 +1,6 @@
 package org.teachingkidsprogramming.recipes;
 
-import java.awt.Color;
+import java.awt.Color
 
 import org.teachingextensions.logo.ColorWheel;
 import org.teachingextensions.logo.Colors;
